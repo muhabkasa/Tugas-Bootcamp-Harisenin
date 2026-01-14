@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"   />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register - Chill Movie App</title>
+        <link 
+            rel="shortcut icon" 
+            href="../images/mini-logo.png" 
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="../styles/register.css" />
+    </head>
+    <body>
+        <main class="card-container">
+            <img src="../images/logo.png" alt="logo" />
+            
+            <div class="card-header">
+            <p>Daftar</p>
+            <p>Selamat datang!</p>
+            </div>
+
+            <form class="card-form" action="#">
+                <div class="input-group">
+                    <label class="form-label" for="username">Username</label>
+                    <input 
+                        class="form-input" 
+                        type="text" 
+                        name="username" 
+                        placeholder="Masukkan username"
+                    />
+                </div>
+
+                <div class="input-group">
+                    <label class="form-label" for="password">Kata Sandi</label>
+                    <input 
+                        class="form-input" 
+                        type="password" 
+                        name="password" 
+                        placeholder="Masukkan kata sandi"
+                    />
+                    <img 
+                        class="password-icon"
+                        src="../images/eye-off-icon.png" 
+                        alt="eye-off-icon"
+                    />
+                </div>
+
+                <div class="input-group">
+                    <label class="form-label" for="confirmation-password">
+                        Konfirmasi Kata Sandi
+                    </label>
+                    <input 
+                        class="form-input"
+                        type="password" 
+                        name="confirmation-password" 
+                        placeholder="Masukkan kata sandi"
+                    />
+                    <img 
+                        class="confirmation-password-icon"
+                        src="../images/eye-off-icon.png" 
+                        alt="eye-off-icon"
+                    />
+                    <div class="form-footer">
+                        <p>Sudah punya akun? <a href="../index.html">Masuk</a></p>
+                    </div>
+                </div>
+                <a href="../index.html" style="text-decoration: none;">
+                <button type="button" class="form-button form-button-primary">Daftar</button>
+                </a>
+                <p class="separator">Atau</p>
+                <button type="button" class="form-button form-button-google">
+                    <img src="../images/google-icon.png" alt="google-icon" />
+                    <p>Daftar dengan Google</p>
+                </button>
+            </form>
+        </main>
+    </body>
+</html>
